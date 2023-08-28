@@ -62,7 +62,7 @@ class _HeadlineDetailsState extends State<HeadlineDetails> {
                           child: Image.network(widget.image)),
                     )
                   else
-                    Center(
+                    const Center(
                       child:
                           CircularProgressIndicator(), // Show a loading indicator
                     ),
@@ -137,7 +137,7 @@ class _HeadlineDetailsState extends State<HeadlineDetails> {
             Container(
               height: 700,
               width: double.infinity,
-              decoration: BoxDecoration(),
+              decoration: const BoxDecoration(),
             )
           ],
         ),
