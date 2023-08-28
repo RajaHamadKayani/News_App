@@ -173,7 +173,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       textStyle:
                           TextStyle(fontSize: 17, color: Color(0xff000000)),
                     ),
-                    const PopupMenuItem<FilterNews>(
+                    PopupMenuItem<FilterNews>(
                       child: Text("Reuters"),
                       textStyle:
                           TextStyle(fontSize: 17, color: Color(0xff000000)),
